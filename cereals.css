@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+
+}
+
+header {
+    background-image: url("https://st4.depositphotos.com/4218696/20502/i/450/depositphotos_205024466-stock-photo-cereals-and-legumes-assortment-on.jpg");
+    color: rgb(6, 6, 6);
+    background-color: green;
+    text-align: center;
+    padding: 50px;
+    background-image: cover;
+}
+
+
+#cereals {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: black;
+}
+
+.cereal-card {  
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+}
+
+.cereal-card h2 {
+    margin-top: 0;
+}
+
+.image {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px 5px 0 0;
+}
+
+.oats {
+    background-image: url("https://t3.ftcdn.net/jpg/01/27/18/72/360_F_127187211_Lj3BnpJX5pGJO4ElrUMhWoZO9imT1XcC.jpg");
+}
+
+.corn  {
+    background-image: url("https://images.unsplash.com/photo-1624798911782-f3766deb4aec?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29ybiUyMGZsYWtlc3xlbnwwfHwwfHx8MA%3D%3D");
+}
+
+.honey {
+    background-image: url("https://www.shantis.com/images/prod/corn-flakes-with-honey/Honey-Corn-Flakes.webp");
+}
+
+.fruit {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDgpRx8qlw0vfN5S2Dx7bjUeqZJtGUpAfP2YWJcLJufGYnKbYKbw-7Gsy5JK-fEN_WrHU&usqp=CAU");
+}
+    .strawberry{
+    background-image: url("https://www.bigbasket.com/media/uploads/recipe/w-l/1330_1.jpg");
+}
+.brown{
+    background-image: url("https://recipes.ventray.com/wp-content/uploads/2021/06/BrownRice_Lifestyle_LowRes.jpg");
+}
+.masala{
+    background-image: url("https://i.pinimg.com/736x/ed/26/db/ed26dbf4854de2b32d30fa98d2829861.jpg");
+}
+.apple{
+    background-image: url("https://www.twospoons.ca/wp-content/uploads/2018/11/AMAZING-fried-apple-almond-butter-porridge-SO-easy-vegan-recipe-plantbased-simple-ingredients-quick-breakfast-gluten-free-1.jpg");
+}
+.buy-now-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.buy-now-button:hover {
+    background-color: #45a049; /* Darker Green */
+}

@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #e8e2e2;
+    
+}
+
+header {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/029/628/398/large_2x/studio-shot-of-various-fruits-and-vegetables-isolated-on-black-background-top-view-high-resolution-products-free-photo.jpeg");
+    color: #e8e2e2;
+    padding: 50px;
+    text-align: center;
+    background-image: cover;
+}
+
+#vegetables {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: black;
+}
+
+.vegetable-card {
+    border: 1px solid #f6f2f2;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+}
+
+.vegetable-card h2 {
+    margin-top: 0;
+}
+
+.image {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px 5px 0 0;
+}
+
+.tomato {
+    background-image: url("https://img.freepik.com/premium-photo/high-resolution-photo-fresh-tomatoes_650650-2756.jpg");
+}
+
+.onion {
+    background-image: url("https://www.foodiesfeed.com/wp-content/uploads/2023/11/red-onion-with-water-drops.jpg");
+}
+.cabbage {
+    background: url("https://c1.wallpaperflare.com/preview/511/257/301/vegetables-cabbage-forget-old-thumbnail.jpg");
+    
+}
+.carrot {
+    background: url("https://img.freepik.com/premium-photo/water-splash-with-carrot-black-background_149301-6334.jpg");
+    background-position: center;
+    
+}
+
+.vegetable-card p {
+    margin: 10px 0;
+}
+.buy-now-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.buy-now-button:hover {
+    background-color: #45a049; /* Darker Green */
+}
+

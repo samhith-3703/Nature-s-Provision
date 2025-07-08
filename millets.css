@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+header {
+    background-image: url("https://grainforests.com/cdn/shop/articles/5_Best_millets.jpg?v=1674282882");
+    background-color: #00a86b;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    background-image: cover;
+}
+
+
+#millets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: black ;
+}
+
+.millet-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+}
+
+.millet-card h2 {
+    margin-top: 0;
+}
+
+.image {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px 5px 0 0;
+}
+
+.ragi {
+    background-image: url("https://i0.wp.com/uzhavuorganic.com/wp-content/uploads/2021/05/uzhavu-organic-ragi.png?fit=1000%2C667&ssl=1");
+}
+
+
+
+.barri {
+    background-image: url("https://naturallyyours.in/cdn/shop/articles/proso_millet_1200x1200.jpg?v=1657621501");
+}
+
+.varagu {
+    background-image: url("https://www.milletgrains.com/parambariya-arisi-online/1686131828.jpg");
+}
+.korralu{
+    background-image: url("https://www.aindriorganics.com/cdn/shop/files/Fox_Tail_Millet.jpg?v=1693199894");
+}
+
+.millet-card p {
+    margin: 10px 0;
+}
+.buy-now-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.buy-now-button:hover {
+    background-color: #45a049; /* Darker Green */
+}

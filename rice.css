@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(238, 230, 230);
+    background-color: black;
+}
+
+header {
+    background-image: url("https://riviana.com/wp-content/uploads/2022/08/Riviana-rice-varieties-II-edited.jpg");
+    background-color: #00a86b;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    background-image: cover;
+}
+
+
+
+#rice {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    color: rgb(229, 223, 223);
+}
+
+.rice-card {
+    border: 1px solid #e6e2e2;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+}
+
+.rice-card h2 {
+    margin-top: 0;
+}
+
+.image {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px 5px 0 0;
+}
+
+.brown {
+    background-image: url("https://theboyo.com/cdn/shop/articles/brown_rice_in_bowl_top_view_1024x1024.png?v=1691843830");
+}
+
+.black {
+    background-image: url("https://watermark.lovepik.com/photo/20211125/large/lovepik-black-rice-picture_501067342.jpg");
+}
+
+.white {
+    background-image: url("https://media.istockphoto.com/id/1242503033/photo/rice-on-a-black-background.jpg?s=612x612&w=0&k=20&c=xJpRzT7hNFAKgdBsOs0-uzLH4prYYsK1VgS1aIyZQL0=");
+}
+
+.basmati {
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/033/027/511/small/rice-in-the-wooden-bowl-with-other-ingredients-ai-generate-free-photo.jpg");
+}
+
+.rice-card p {
+    margin: 10px 0;
+}
+.buy-now-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.buy-now-button:hover {
+    background-color: #45a049; /* Darker Green */
+}

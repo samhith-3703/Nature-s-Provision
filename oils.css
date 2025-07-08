@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+header {
+    background-image: url("https://purezanature.com/image/purezanature/image/data/Organic%20Flaxseed%20Oil.jpg");
+    background-color: #16f63b;
+    color: rgb(242, 238, 238);
+    padding: 50px;
+    text-align: center;
+    background-position: cover;
+    
+    
+}
+
+
+
+#oils {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: black;
+}
+
+.oil-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+}
+
+.oil-card h2 {
+    margin-top: 0;
+}
+
+.image {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px 5px 0 0;
+}
+
+.olive {
+    background-image: url("https://www.womansworld.com/wp-content/uploads/2021/02/oil.jpg?w=953");
+}
+
+.Coconut {
+    background-image: url("https://www.shutterstock.com/image-photo/coconut-oil-alternative-therapy-600nw-91447619.jpg");
+}
+
+.avocado {
+    background-image: url("https://scitechdaily.com/images/Avocado-Oil-on-Table.jpg");
+}
+
+.Sunflower {
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/991/804/919/flower-glass-life-nature-wallpaper-preview.jpg");
+}
+
+.oil-card p {
+    margin: 10px 0;
+}
+.buy-now-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.buy-now-button:hover {
+    background-color: #45a049; /* Darker Green */
+}

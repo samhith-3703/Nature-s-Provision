@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onion</title>
+    <link rel="stylesheet" href="onion.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <form action="home.html">
+        <h1>Onion</h1>
+    </header>
+    <div class="container">
+        <div class="product-details">
+            <img src="https://thumbs.dreamstime.com/b/full-frame-shot-purple-onions-fresh-whole-purple-onions-one-sliced-onion-full-frame-shot-purple-onions-136642247.jpg" alt="onion">
+            <h2>Onion</h2>
+            <p>Price: <span id="price">10</span> INR/kg</p>
+            <label for="quantity">Quantity (kg):</label>
+            <input type="number" id="quantity" value="1" min="1">
+            <p>Total Price: <span id="total-price">10</span> INR</p>
+        </div>
+        
+        <div class="delivery-details">
+            <h3>Delivery Information</h3>
+            <label for="address">Delivery Address:</label>
+            <input type="text" id="address" placeholder="Enter your address">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" placeholder="Enter your phone number">
+            
+        </div>
+        <div class="payment-details">
+            <h4>Payment Options</h4>
+            <label for="payment">Select Payment Method:</label>
+            <select id="payment">
+                <option value="credit-card">Credit Card</option>
+                <option value="debit-card">Debit Card</option>
+                <option value="net-banking">Net Banking</option>
+                <option value="wallet">Wallet</option>
+                
+            </select><br><br>
+            <button id="confirm-order">Confirm Order</button>
+        </div>
+    </div>
+    <script>
+        document.getElementById('quantity').addEventListener('input', function() {
+    let quantity = this.value;
+    let pricePerKg = 20; // Price per kg of tomato
+    let totalPrice = quantity * pricePerKg;
+    document.getElementById('total-price').textContent = totalPrice;
+});
+
+    </script>
+    <script>
+        document.getElementById('buy-now').addEventListener('click', function() {
+    // Redirect the user to the other page
+    window.location.href = 'http://127.0.0.1:5502/tomato.html'; // Replace 'checkout.html' with the URL of the other page
+});
+
+    </script>
+</body>
+</html>
